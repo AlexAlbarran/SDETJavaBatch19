@@ -1,0 +1,11 @@
+package org.example.review1;
+
+public class E3Java {
+    public static void main(String[] args) {
+
+        int myintagevariable=15;
+        int myIntAgeVariable=20;
+        int x=20;
+        int age=30;
+    }
+}
