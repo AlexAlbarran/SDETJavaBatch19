@@ -2,16 +2,13 @@ package org.example.class14;
 
 public class Calculator {
 
-    void add() {
-        System.out.println(2 + 2);
-    }
 
-    void print() {
-        System.out.println("Hello Batch 19");
-        System.out.println("Java is great");
-    }
 
-    int number() {
-        return 10;
+  static void addArray(int [] arr){
+        int sum=0;
+        for (int i = 0; i < arr.length; i++) {
+            sum=sum+arr[i];
+        }
+        System.out.println(sum);
     }
 }

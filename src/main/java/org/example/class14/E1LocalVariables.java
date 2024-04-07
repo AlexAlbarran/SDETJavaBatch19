@@ -1,7 +1,6 @@
 package org.example.class14;
 
 public class E1LocalVariables {
-
     //instance variable
     String name;
     //instance variable
@@ -25,7 +24,7 @@ public class E1LocalVariables {
         }
 
 
-        // System.out.println(sum);
+       // System.out.println(sum);
     }
 
     public static void main(String[] args) {

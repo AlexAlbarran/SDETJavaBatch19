@@ -1,7 +1,6 @@
 package org.example.class14;
 
 public class Cat {
-
     String name;
     String color;
     int age;
@@ -12,5 +11,7 @@ public class Cat {
     void printInfo(){
         System.out.println(name+" "+color+" "+age);
     }
+
+
 
 }
