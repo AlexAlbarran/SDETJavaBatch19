@@ -63,7 +63,7 @@ class PdfFile extends File {
     }
 }
 
-class FileTester {
+class FileTester2 {
     public static void main(String[] args) {
         File[] files = {new JavaFile("Animal.java", 34),
                 new PdfFile("Divorce_Paper.pdf", 140),

@@ -9,19 +9,23 @@ an instance/object of the class.
 public class Task1 {
 
 
-   int sumArray(int [] arr){
+    int sumArray(int[] arr) {
 
-       int sum=0;
-       for (int i = 0; i < arr.length; i++) {
-           sum=sum+arr[i];
-       }
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
         return sum;
     }
 
 
     public static void main(String[] args) {
 
-       Task1 t=new Task1();
+        Task1 t = new Task1();
     }
 
+    public int sum(int[] array) {
+        return 0;
+    }
 }
+

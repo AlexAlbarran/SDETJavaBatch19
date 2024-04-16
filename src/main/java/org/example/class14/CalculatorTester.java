@@ -7,7 +7,7 @@ public class CalculatorTester {
         // Boolean a= c.add();
         // Boolean a=  c.number();
 
-        c.print();
+        //c.print();
         // Break till 1:54
     }
 }

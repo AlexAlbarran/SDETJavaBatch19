@@ -19,9 +19,17 @@ public class Students {
     }
 
     public static void main(String[] args) {
-        Students s1 = new Students("Will",0 , -50,0.0);
+        Students s1 = new Students("Will", 0, -50, 0.0);
         Students s2 = new Students("Asghar", 105.0, 110.5, 99.0);
         System.out.println("Average mark for " + s1.studentName + ":" + s1.averageGrade());
         System.out.println("Average mark for " + s2.studentName + ":" + s2.averageGrade());
+    }
+
+    public String getStudentName() {
+        return "";
+    }
+
+    public String avgGrade() {
+        return "";
     }
 }
