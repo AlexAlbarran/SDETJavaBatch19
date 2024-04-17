@@ -4,15 +4,19 @@ import java.util.ArrayList;
 
 public class E6 {
     public static void main(String[] args) {
+        ArrayList<String> names=new ArrayList();
+        names.add("James");
+        names.add("Barket");
+        names.add("John");
+        names.add("Nikola");
 
-        ArrayList<Integer> names=new ArrayList<>();
-       int numbers=10;
-       //Integer i=new Integer(10);
-        Integer i=10;
-       i++;
-       i=i+1;
-        System.out.println(i);
-       Double s=25.0;
+        for (int i = 0; i < names.size(); i++) {
+           /* String n=names.get(i);
+            System.out.println(n.length());*/
+
+            System.out.println(names.get(i).length());
+        }
+
 
     }
 }

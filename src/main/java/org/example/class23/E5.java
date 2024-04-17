@@ -4,16 +4,15 @@ import java.util.ArrayList;
 
 public class E5 {
     public static void main(String[] args) {
-
-        ArrayList<String> names=new ArrayList<>();
+        ArrayList<String> names=new ArrayList();
         names.add("James");
         names.add("Barket");
         names.add("John");
         names.add("Nikola");
-        System.out.println(names);
 
-       names.forEach(x-> System.out.println(x));
-       names.forEach(x-> System.out.println(x.length()));
+        names.forEach(x-> System.out.println(x));
+        names.forEach(x-> System.out.println(x.length()));
+
 
     }
 }

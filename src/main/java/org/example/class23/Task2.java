@@ -3,29 +3,29 @@ package org.example.class23;
 import java.util.ArrayList;
 
 /*
-Create an ArrayList that will store 5 names into it.
+Create an arrayList of drinks call it.
+If any drink has letter “a” or “e” replace the
+whole word with water.
 
  */
 public class Task2 {
     public static void main(String[] args) {
+        ArrayList<String> drinkList=new ArrayList();
+        drinkList.add("Cola");
+        drinkList.add("juice");
+        drinkList.add("Sprite");
 
-        ArrayList<String> cars = new ArrayList<>();
-        cars.add("Ford");
-        cars.add("Chevy");
-        cars.add("Dodge");
-        cars.add("Toyota");
 
-        for (int i = 0; i < cars.size(); i++) {
-            System.out.println(cars.get(i));
+        for(int i=0; i<drinkList.size();i++){
+            String drink=drinkList.get(i);
+            if(drink.contains("a")|| drink.contains("e")){
+                drinkList.set(i,"water");
+
+            }
+
         }
-
-        System.out.println("****************");
-
-        for(String s:cars) {
-            System.out.println(s);
-        }
-        cars.forEach(c-> System.out.println(c));
-        cars.forEach(c-> System.out.println(c.length()));
+        System.out.println(drinkList);
 
     }
-}
+    }
+
